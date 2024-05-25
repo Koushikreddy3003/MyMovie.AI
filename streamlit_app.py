@@ -7,7 +7,7 @@ import streamlit.components.v1 as components
 st.markdown("<h1 style='text-align: center; color: blue;'>MyMovie.ai</h1>", unsafe_allow_html=True)
 st.write("## Organize your movie scripts, powered by AI.")
 
-movie_plots_path = st.file_uploader('Upload the file here')
+movie_plots_path = "American_Movie_plots_2005_2023_V1.csv"
 
 @st.cache_data
 def load_data():
